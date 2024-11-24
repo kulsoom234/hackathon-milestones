@@ -1,0 +1,84 @@
+body {
+    font-family:Arial,  sans-serif ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%vh;
+    color: rgb(14, 87, 87);
+    background-color: rgb(179, 20, 118);
+
+}
+
+.container , #resumePage{
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+
+}
+button{
+    padding: 0.85em 1.8em;
+    margin-top: 25px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(237, 22, 112);
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 40;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 0.7em;
+    font-weight: bold;
+    color: #ff0000;
+    font-size: 1.1em;
+
+}
+
+textarea {
+    height: 130px;
+    border-radius: 10px;
+
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.85em;
+    margin-top: 0.5em;
+    border: 2px solid rgb(4, 58, 4);
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+#resumePage img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(10, 99, 99);
+
+}
+
+#resumePage h1{
+    text-align:  center;
+    color:rgb(10, 99, 99) ;
+
+}
+
+#resumePage h2{
+    color: rgb(90, 90, 226);
+    text-align: left;
+    
+}
